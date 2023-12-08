@@ -1,11 +1,13 @@
-# KACTL
+# MongoDB Cheatsheet
 
-This repo hosts KACTL, [KTH](https://en.wikipedia.org/wiki/KTH_Royal_Institute_of_Technology)'s ICPC team reference document.
+This repo hosts a fork of KACTL which will eventually be used by the team MongoDB for the 2023 ICPC World Finals.
 It consists of 25 pages of copy-pasteable C++ code, for use in ICPC-style programming competitions.
 
 See [kactl.pdf](./kactl.pdf) for the final, browsable version, and [content/](./content/) for raw source code.
 
 ## Aspirations
+
+This repo uses a mix of KACTL algorithms and those used by us individually.
 
 KACTL algorithms should be: useful, short, fast enough, well tested, and if relevant, readable and easy to modify.
 They should *not* be overly generic, since code is manually typed and that just adds overhead.
